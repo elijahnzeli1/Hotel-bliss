@@ -1,10 +1,6 @@
 import axios from 'axios';
 
-<<<<<<< HEAD
 const API_URL = 'https://backend-hotel-service.vercel.app';
-=======
-const API_URL = 'https://backend-hotel-service-19daphi3z-elijahs-projects-e6652eea.vercel.app';
->>>>>>> origin/main
 
 export const getRooms = async () => {
   try {

@@ -1,0 +1,21 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circle Background -->
+  <circle cx="100" cy="100" r="100" fill="#FFD700"/>
+  
+  <!-- Bed Icon -->
+  <rect x="60" y="70" width="80" height="40" rx="10" ry="10" fill="#FF6347"/>
+  <rect x="60" y="100" width="80" height="10" fill="#FFA07A"/>
+  <rect x="55" y="105" width="90" height="15" fill="#FF4500"/>
+  <rect x="60" y="120" width="20" height="20" fill="#FF69B4"/>
+  <rect x="120" y="120" width="20" height="20" fill="#FF69B4"/>
+
+  <!-- Calendar Icon -->
+  <rect x="60" y="140" width="80" height="40" rx="5" ry="5" fill="#4682B4"/>
+  <line x1="60" y1="155" x2="140" y2="155" stroke="#5F9EA0" stroke-width="4"/>
+  <line x1="75" y1="140" x2="75" y2="180" stroke="#5F9EA0" stroke-width="4"/>
+  <line x1="125" y1="140" x2="125" y2="180" stroke="#5F9EA0" stroke-width="4"/>
+  <circle cx="90" cy="160" r="3" fill="#FF4500"/>
+  <circle cx="110" cy="160" r="3" fill="#FF4500"/>
+  <circle cx="90" cy="175" r="3" fill="#FF4500"/>
+  <circle cx="110" cy="175" r="3" fill="#FF4500"/>
+</svg>

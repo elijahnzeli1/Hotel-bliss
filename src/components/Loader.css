@@ -1,0 +1,7 @@
+/* Loader.css */
+.loader-container {
+  display: flex; /* Center the spinner */
+  justify-content: center;
+  align-items: center;
+  min-height: 200px; /* Adjust as needed */
+}

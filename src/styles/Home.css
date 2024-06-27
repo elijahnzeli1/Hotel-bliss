@@ -1,0 +1,61 @@
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'); /* Replace with your own image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    background-position: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* .animated-word {
+  display: inline-block;
+  opacity: 0;
+} */
+
+.animated-word {
+  will-change: opacity, transform;
+}
+
+.animated-word:nth-child(1) { animation: fadeInUp 0.5s ease-out 0.1s forwards; }
+.animated-word:nth-child(2) { animation: fadeInUp 0.5s ease-out 0.2s forwards; }
+.animated-word:nth-child(3) { animation: fadeInUp 0.5s ease-out 0.3s forwards; }
+.animated-word:nth-child(4) { animation: fadeInUp 0.5s ease-out 0.4s forwards; }
+.animated-word:nth-child(5) { animation: fadeInUp 0.5s ease-out 0.5s forwards; }
+.animated-word:nth-child(6) { animation: fadeInUp 0.5s ease-out 0.6s forwards; }
+.animated-word:nth-child(7) { animation: fadeInUp 0.5s ease-out 0.7s forwards; }
+.animated-word:nth-child(8) { animation: fadeInUp 0.5s ease-out 0.8s forwards; }
+  
+.featured-rooms .card {
+  transition: transform 0.2s;
+}
+  
+.featured-rooms .card:hover {
+  transform: scale(1.05);
+}
+  
+.amenities .fas {
+  color: #007bff;
+}
+  
+.testimonials .carousel-item {
+  text-align: center;
+  padding: 40px 0;
+}
+  
+.cta {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+  

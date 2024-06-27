@@ -8,7 +8,7 @@ export default defineConfig({
     open: true,
     proxy: {
       '/api': {
-        target: process.env.VITE_BACKEND_URL || 'http://localhost:3001',
+        target: process.env.VITE_BACKEND_URL || 'https://backend-hotel-service.vercel.app',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '') 
       }
